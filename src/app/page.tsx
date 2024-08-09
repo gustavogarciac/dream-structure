@@ -3,44 +3,14 @@ import Image from 'next/image'
 
 import { GridPattern } from '@/components/grid-pattern'
 import { Header } from '@/components/header'
+import { HeroSection } from '@/components/hero'
 
 export default function Home() {
   return (
     <div className="relative flex flex-col gap-2">
       <Header />
       <main className="flex min-h-screen flex-col items-center justify-center bg-zinc-950">
-        <section className="relative min-h-screen w-full">
-          <Image
-            src={'/assets/living-room-2.jpg'}
-            className="z-10 object-cover opacity-70"
-            alt=""
-            fill
-            quality={100}
-          />
-
-          <div className="relative z-20 mx-auto mt-[76px] flex h-[92vh] w-[90%] flex-col gap-2 border-x border-zinc-400 border-opacity-20 p-8">
-            <div className="absolute -left-14 top-56 z-50 -rotate-90">
-              <span className="z-50 text-sm uppercase text-zinc-300">
-                GG/04
-              </span>
-            </div>
-
-            <div className="flex flex-row justify-between gap-2">
-              <span className="max-w-80 text-base font-semibold uppercase tracking-tight text-zinc-300 opacity-80 drop-shadow-md">
-                Let Artificial Intelligence Help You In Designing.
-              </span>
-              <span className="max-w-80 text-base font-semibold uppercase tracking-tight text-zinc-300 opacity-80 drop-shadow-md">
-                Suggest What Would Be Good For Your Room
-              </span>
-            </div>
-
-            <h1 className="tracking-tigher mt-auto self-end text-[10rem] font-black uppercase leading-[10.25rem] text-zinc-50 drop-shadow-2xl">
-              Dréam Structure.
-            </h1>
-
-            <GridPattern />
-          </div>
-        </section>
+        <HeroSection />
 
         <section className="min-h-screen w-full bg-zinc-50">
           <div className="relative mx-auto flex min-h-screen w-[90%] flex-col gap-2 border-x border-zinc-400 border-opacity-20 p-8 pt-[110px]">
