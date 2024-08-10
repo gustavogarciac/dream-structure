@@ -14,8 +14,8 @@ export const CardSection = () => {
             Design.
           </h1>
 
-          <div className="mt-24 grid grid-cols-3 gap-12">
-            <div className="flex min-h-[420px] -translate-y-40 flex-col gap-5 bg-orange-600 p-8 text-zinc-950">
+          <div className="mt-24 grid grid-cols-1 gap-12 xl:grid-cols-3">
+            <div className="flex min-h-[420px] flex-col gap-5 bg-orange-600 p-8 text-zinc-950 xl:-translate-y-40">
               <span className="text-3xl font-semibold uppercase text-zinc-50">
                 01/
               </span>
@@ -37,7 +37,7 @@ export const CardSection = () => {
               </button>
             </div>
 
-            <div className="flex min-h-[420px] -translate-y-24 flex-col gap-5 border border-zinc-400 border-opacity-20 bg-zinc-950 p-8 text-zinc-50">
+            <div className="flex min-h-[420px] flex-col gap-5 border border-zinc-400 border-opacity-20 bg-zinc-950 p-8 text-zinc-50 xl:-translate-y-24">
               <span className="text-3xl font-semibold uppercase text-orange-600">
                 02/
               </span>
@@ -59,7 +59,7 @@ export const CardSection = () => {
               </button>
             </div>
 
-            <div className="relative flex min-h-[420px] -translate-y-6 flex-col gap-5 border border-zinc-400 border-opacity-20 bg-zinc-950 p-8 text-zinc-50">
+            <div className="relative flex min-h-[420px] flex-col gap-5 border border-zinc-400 border-opacity-20 bg-zinc-950 p-8 text-zinc-50 xl:-translate-y-6">
               <div className="relative z-20 flex flex-1 flex-col gap-5">
                 <span className="text-3xl font-semibold uppercase text-zinc-50">
                   01/
@@ -81,12 +81,12 @@ export const CardSection = () => {
                 src="/assets/living-room-1.jpg"
                 fill
                 alt=""
-                className="z-10 opacity-70"
+                className="z-10 object-cover opacity-70"
               />
             </div>
           </div>
-          <div className="mr-20 grid grid-cols-3">
-            <span className="text-end text-zinc-400">
+          <div className="mt-2 grid grid-cols-1 xl:mr-20 xl:mt-0 xl:grid-cols-3">
+            <span className="text-center text-zinc-400 xl:text-end">
               (D-S.P.A.C.E)
               <br />
               02/

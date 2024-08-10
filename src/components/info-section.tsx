@@ -3,6 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 
 import { GridPattern } from './grid-pattern'
+import { InfoSectionScrollDownButton } from './info-section-scrolldown-button'
 
 export const InfoSection = () => {
   return (
@@ -123,9 +124,7 @@ export const InfoSection = () => {
           02
         </span>
 
-        <button className="absolute -right-20 bottom-20 -rotate-90">
-          Scroll Down
-        </button>
+        <InfoSectionScrollDownButton />
       </div>
     </section>
   )

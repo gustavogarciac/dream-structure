@@ -1,6 +1,8 @@
 import Image from 'next/image'
 
 import { CardSection } from '@/components/card-section'
+import { ContactSection } from '@/components/contact-section'
+import { Footer } from '@/components/footer'
 import { GridPattern } from '@/components/grid-pattern'
 import { Header } from '@/components/header'
 import { HeroSection } from '@/components/hero'
@@ -36,6 +38,10 @@ export default function Home() {
         </section>
 
         <TestimonialsSection />
+
+        <ContactSection />
+
+        <Footer />
       </main>
     </div>
   )
