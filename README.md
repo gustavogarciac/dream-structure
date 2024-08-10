@@ -27,7 +27,10 @@ This landing page was developed to be part of Dream Structure's website. The int
 
 You can access the deploy of the project on the link below:
 
-https://dream-structure.vercel.app
+<a href="https://dream-structure.vercel.app" target="_blank">
+  Click here
+</a>
+
 
 
 ## Run Locally
