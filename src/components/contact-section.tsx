@@ -5,7 +5,10 @@ import { GridPattern } from './grid-pattern'
 
 export const ContactSection = () => {
   return (
-    <section className="min-h-screen w-full bg-zinc-50 text-zinc-950">
+    <section
+      className="min-h-screen w-full bg-zinc-50 text-zinc-950"
+      id="contact"
+    >
       <div className="relative mx-auto flex min-h-screen w-[95%] flex-col gap-2 border-x border-zinc-400 border-opacity-20 p-8 pt-10 md:w-[90%] md:pt-[110px]">
         <div className="z-20 flex flex-col gap-2">
           <div className="absolute -left-16 -rotate-90">

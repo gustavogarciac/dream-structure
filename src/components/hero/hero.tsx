@@ -1,11 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 
-import { GridPattern } from './grid-pattern'
+import { GridPattern } from '../grid-pattern'
+import { HeroTitle } from './hero-title'
 
 export const HeroSection = () => {
   return (
-    <section className="relative min-h-screen w-full">
+    <section className="relative min-h-screen w-full" id="hero">
       <Image
         src={'/assets/living-room-2.jpg'}
         className="z-10 object-cover opacity-70"
@@ -28,9 +29,7 @@ export const HeroSection = () => {
           </span>
         </div>
 
-        <h1 className="tracking-tigher mt-auto self-end text-[2rem] font-black uppercase leading-[2.25rem] text-zinc-50 drop-shadow-2xl sm:text-[4rem] sm:leading-[4.25rem] md:text-[6rem] md:leading-[6.25rem] lg:text-[8rem] lg:leading-[8.25rem] xl:text-[10rem] xl:leading-[10.25rem]">
-          Dréam Structure.
-        </h1>
+        <HeroTitle />
 
         <GridPattern />
       </div>

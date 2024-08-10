@@ -1,14 +1,14 @@
 import Image from 'next/image'
 
-import { CardSection } from '@/components/card-section'
+import { CardSection } from '@/components/card-section/card-section'
 import { ContactSection } from '@/components/contact-section'
 import { Footer } from '@/components/footer'
 import { GridPattern } from '@/components/grid-pattern'
 import { Header } from '@/components/header'
-import { HeroSection } from '@/components/hero'
-import { InfoSection } from '@/components/info-section'
-import { ShowCaseSection } from '@/components/showcase-section'
-import { TestimonialsSection } from '@/components/testimonials-section'
+import { HeroSection } from '@/components/hero/hero'
+import { InfoSection } from '@/components/info/info-section'
+import { ShowCaseSection } from '@/components/showcase-section/showcase-section'
+import { TestimonialsSection } from '@/components/testimonials/testimonials-section'
 
 export default function Home() {
   return (
